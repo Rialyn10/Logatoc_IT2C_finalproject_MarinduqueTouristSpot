@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE MarinduqueTouristSpot [
+    <!ELEMENT MarinduqueTouristSpot (index)>
+	<!ELEMENT index (home, photos, info, history, book)>
+
+   <!ELEMENT websitename (#PCDATA)>
+   <!ELEMENT id (#PCDATA)>
+   <!ELEMENT navbarlink (#PCDATA)>
+   <!ELEMENT nsvbarpagename (#PCDATA)>
+   <!ELEMENT contents (#PCDATA)>
+   <!ELEMENT p (#PCDATA)>
+
+   <!ATTLIST webpage id CDATA #REQUIRED>
+
+]>
+
+<MarinduqueTouristSpot>
+   <webpage id="home">
+	   <navbar link="index.php">Home</navbar>
+	   <navbar link="gallery.php">Photos</navbar>
+	   <navbar link="info.php">Info</navbar>
+	   <navbar link="history.php">History</navbar>
+	   <navbar link="reservation.php">Book</navbar>
+	   <navbar pagename="Home"> 
+	    <contents>
+	   <h2> Marinduque Tourist Spot </h2>
+		<p> Marinduque is a heart-shaped island province in the Mimaropa region that nestles between Tayabas Bay and the Sibuyan Sea. It is situated at the heart of the Philippines and is considered the archipelago’s geographic center. During the Lenten season, the island gets a bit crowded for the annual Moriones Festival, one of the oldest religious festivals in the Philippines. Home to idyllic beaches and caves, Marinduque has several must-visit sites that attract tourists during the Lenten season and the summer months. For those planning to visit this beautiful island paradise, This website listed the best Marinduque tourist spots that you should visit when you book Marinduque tour packages </p>
+	</contents>
+	</navbar>
+	</webpage>
+
+
+ <webpage id="photos">
+ 	   <navbar link="index.php">Home</navbar>
+	   <navbar link="gallery.php">Photos</navbar>
+	   <navbar link="info.php">Info</navbar>
+	   <navbar link="history.php">History</navbar>
+	   <navbar link="reservation.php">Book</navbar>
+	   <navbar pagename="Photos">
+	    <contents>
+	   <h1> Marinduque Tourist Spot Gallery </h1>
+	   <img name="a">Maniwaya </img>
+	   <p>Maniwaya Island</p>
+	   <img name="b">Maniwaya </img>
+	   <p>Poctoy White Beach</p>
+	   <img name="c">Bagumbayan</img>
+	   <p>Bagumbayan Cave</p>
+	   <img name="d">Malbog</img>
+	   <p>Malbog Sulfor Spring</p>
+	   <img name="e">Mongpong</img>
+	   <p>Mongpong Island</p>
+	   <img name="f">Tres Reyes</img>
+	   <p>Tres REyes Island</p>
+	   <img name="j">Paadjao</img>
+	   <p>Paadjao Falls</p>
+	   <img name="g">Bathala Cave</img>
+	   <p>Batala Cave</p>
+	   <img name="h">Mt. Mlindig</img>
+	   <p>Mt. Malindig</p>
+	   <img name="i">Kawa kawa</img>
+	   <p>Kawa Kawa Falls</p>
+	   <img name="003">Balanacan Port</img>
+	   <p>Balanacan Port</p>
+	   <img name="z">Laylay</img>
+	   <p>Laylay Port</p>
+	   <img name="x" >Beach</img>
+	   <p>Aroma Beach</p>
+	   <img name="14">Ocean</img>
+	   <p>Ocean view</p>
+	   <img name="zz">View Deck</img>
+	   <p> View Deck</p>
+	   <img name="aaa">Laylay</img>
+	   <p>Luzon Datum</p>
+	   <img name="hakupan">Hakupan</img>
+	   <p>Hakupan Island</p>
+	   <img name="gaspar">Gaspar Island</img>
+	   <p>Gaspar Island</p>
+
+	</contents>
+	</navbar>
+	</webpage>
+	
+   <webpage id="info">
+	   <navbar link="index.php">Home</navbar>
+	   <navbar link="gallery.php">Photos</navbar>
+	   <navbar link="info.php">Info</navbar>
+	   <navbar link="history.php">History</navbar>
+	   <navbar link="reservation.php">Book</navbar>
+	   <navbar pagename="Info"> 
+      <dropdown link="maniwaya.php">Maniwaya Island</dropdown>
+	   <dropdown link="poctoy.php">Poctoy White Beach</dropdown>
+	   <dropdown link="bagumbayan.php">Bagumbayan Cave</dropdown>
+	   <dropdown link="malbog.php">Malbog Sulfur Spring</dropdown>
+	   <dropdown link="mongpong.php">Mongpong Island</dropdown>
+	   <dropdown link="tresreyes.php">Tres Reyes Island</dropdown>
+	   <dropdown link="paadjao.php">Paadjao Falls</dropdown>
+	   <dropdown link="bathala.php">Bathala Cave</dropdown>
+	   <dropdown link="malindig.php">Mount Malindig</dropdown>
+	   <dropdown link="kawakawa.php">Kawa-kawa Falls</dropdown>
+	   <contents>
+	   <h1>Maniwaya Island</h1>
+      <p>  Maniwaya Island is one of the best tourist spots in Marinduque, an island famous for its long stretch of powdery white sand beach and turquoise waters teeming with marine life. The beach front is arrayed with cottages and lush coconut trees with a great view of the looming mountains of the mainland. Common things to do in the island includes kayaking, boating, paddle boarding and jet skiing. Tourists may also visit the nearby long stretch of white sandbar of Palad Sandbar and rock formations of Ungab Rock. There are resorts in the island visitors can stay and request a boat going to the nearby attractions. Location:  Sta Cruz, Marinduque.</p>
+      <h1>Poctoy White Beach</h1>
+	   <p> Poctoy White Beach is considered as the most famous beach in the mainland of Marinduque facing Sibuyan Sea. The beach features over a kilometer long stretch of pure white sand, alluring deep turquoise waters, interesting seaside rock formations, lush of green vegetation, beautiful view of Mount Malindig and looming mountains as backdrop. Visitors may enjoy swimming, snorkeling, diving and wind surfing. There are plenty of beach front resorts in the area and cottages are also available for day visitors but camping is also allowed. In spite the fact that it’s a public beach, it is clean and lively worth visiting. Location: Torrijos, Marinduque.</p>
+	   <h1>Bagumbayan Cave</h1>
+	   <p>Bagumbungan Cave is one of the best tourist spots in Marinduque, a 1.9-kilometer long cave but it’s not fully explored. The cave is one of the best spelunking destination in the province along with Bathala Cave System. It features amazing stalactites and stalagmites, small waterfalls and diverse underworld creatures. The exciting caving adventure may require physical fitness which visitors may climb, duck, squeeze and nearly crawl with some slippery and steep trails. Visitors may also notice owls, shrimps, crabs, eels and catfishes inside. There are 2 routes available, either finish up to the exit or finish halfway. Location: Barangay San Isidro, Santa Cruz, Marinduque.</p>
+	   <h1>Malbog Sulfur Spring</h1>
+	   <p>Malbog Sulfur Spring is one of the popular tourist spots in Marinduque situated at the foot of Mount Malindig which is the source of sulfur stream. Sulfur spring pools can be found inside the property which believed to have therapeutic benefits and natural healing properties. It is a relaxing place surrounded with green trees but as of the nature of sulfur, it has some unwanted smell that could stick for days. There is also a nearby resort named Marinduque Hot Spring Resort that also have hot spring pools, a perfect alternative for visitors who wants to avoid the unwanted smell of sulfur. Location: Barangay Malbog, Buenavista, Marinduque.</p>
+	   <h1>Mongpong Island</h1>
+	   <p>Among the islands surrounding Marinduque, Mongpong Island is the farthest but one of the most visited islands. It has a famous iconic rock formation called Ungab Rock perched on the eastern coasts. Ungab Rock is a beautiful arch bridge rock formation towering about 100 feet above the alluring crystal clear waters. The eastern part of the island has over a kilometer long stretch of white sand beach mixed with crushed corals while the northern part is one of the best dive sites in province. It is an inhabited island where the friendly and humble residents rely on farming and fishing. Location: Santa Cruz, Marinduque.</p>
+	   <h1>Tres Reyes Island</h1>
+	    <p>Tres Reyes Islands is among the best tourist spots in Marinduque situated off the southwest coasts of the mainland. The name of the islands were derived from the Three Kings: Gaspar, Melchor and Baltazar Islands which comprises the Tres Reyes Islands. Gaspar Island is the biggest and only with a short stretch of white sand beach where cottages are available. Melchor Island is mostly covered with trees with steep cliffs while Baltazar Island is the most famous dive site teeming with beautiful corals and wide variety of marine life. Island hopping can be organized in the resorts on the mainland. Location: Gasan, Marinduque.</p>
+	    <h1>Paadjao Falls</h1>
+	   <p>Paadjao Falls is located in Barangay Bocboc. This roughly 100 feet waterfall cascades into a 6 feet basin surrounded by tall trees. Its water remains cold throughout the year feeding Mogpog River. It can be reached within a thirty-minute hike from Barangay Bocboc. It is the most accessible waterfall in the province and the locals can easily give direction when needed. If hesitant to hike without a guide, better hire one. This waterfall is considered as an underrated tourist spot in Mogpog, Marinduque but a favorite place for local families and groups on their picnics and nature getaways. Location: Sitio Paadjao, Barangay Bokbok, Mogpog, Marinduque.</p>
+	    <h1>Mount Malindig</h1>
+	   <p>Mount Malindig is one of the beautiful tourist spots in Marinduque, a potentially active volcano standing 1,157 meters above sea level. It is a popular mountain climbing destination of the province categorized as an easy to moderate climb. The mountain features grasslands, farmlands, mossy and closed canopy forests where different species of wild orchids and endemic wildlife can be found. The summit is mostly covered with verdant trees but along the trails, there are vantage points offering beautiful views of the coastlines, rolling mountains, Tres Reyes Islands, Elephant Island and a panorama encompassing Mindoro, Verde Island and Southern Luzon. Location: Buenavista and Torrijos, Marinduque.</p>
+	   <h1>Kawa-kawa Falls</h1>
+	   <p>Kawa-kawa means basin because of its basin-like appearance. There are actually 2 basins, one from the top and the other at the lower part. Because there is a light rainfall before we went there, the water became a little dark but rest assured that it is clean since there are caretakers in the area and the water is flowing. Kawa-Kawa falls is only around 15 feet high with a circular and deep catch basin. Try climbing the cliff and plunge or dive your way to the pool. Just make sure you know how to swim and you hit the deep part. The crystal-clear and cold waters will surely give you that soothing experience you’re after. Swim around the pool as you relish the lush surroundings. Location: Bangcuangan, Sta. Cruz, Marinduque.</p>
+	   
+	  
+
+	 </contents>
+	</navbar>
+	</webpage>
+
+	<webpage id="history">
+	   <navbar link="index.php">Home</navbar>
+	   <navbar link="gallery.php">Photos</navbar>
+	   <navbar link="info.php">Info</navbar>
+	   <navbar link="history.php">History</navbar>
+	   <navbar link="reservation.php">Book</navbar>
+	   <navbar pagename="History"> 
+	    <contents>
+	   <img name="pic1">history</img>
+	   <h1> History of Marinduque </h1>
+		<p> Legend has it that the island of Marinduque was formed as a consequence of a tragic love affair between two people: Mariin and Gatduke. Mariin's father, a local chieftain, did not approve of this affair and ordered the beheading of Gatduke. Before this could be done, the couple sailed out to sea and drowned themselves, forming the island now called Marinduque. During the Spanish and early American occupations, Marinduque was part of Balayan Province (now Batangas) in the 16th century, Mindoro in the 17th century, and had a brief period as an independent province in 1901, when the Americans arrived. </p>
+      <h1> Philippine American War </h1>
+      <img name="war">War</img>
+		<p> During the Philippine-American War, Marinduque was the first island to have American concentration camps. Marinduque is the site of the Battle of Pulang Lupa, where 250 Filipino soldiers under Colonel Maximo Abad, defeated a smaller force of 54 American Infantrymen. In 1902, the US-Philippine Commission annexed the islands of Mindoro (now two separate provinces) and Lubang (now part of Occidental Mindoro) to the province. Four months later, the province became part of the province of Tayabas (now Quezon). On February 21, 1920, Act 2280 was passed by the Philippine Congress, reestablishing Marinduque as a separate province. In 1942, the Japanese Imperial forces landed in Marinduque. In 1945, combined American and Philippine Commonwealth troops attacked from the Japanese Troops liberated to the Battle of Marinduque in the Second World War </p>
+		 <h1> Putong or Tubong </h1>
+		 <img name="images">Tubong</img>
+		<p> Marinduqueños are said to be very hospitable in nature and are very welcoming. One such custom reflecting this is putong or tubong, which is a custom of welcoming and honoring friends and visitors. The honoree (or honorees) are seated and crowned with flowers while local women dance and sing for them. Other well-wishers throw coins and flower petals for long life. Marinduqueños are of Tagalog origin and speak Tagalog. The Moriones festival also plays a prominent role in Marinduque's culture.</p>
+      <h1> Moriones Festival </h1>
+      <img name="m">history</img>
+      <p> Marinduque is famous for this annual Moriones Festival locally known as "Moryonan". During the month of March or April, parades and celebrations can be seen on the streets. In Santa Cruz, Gasan, Boac, and Mogpog, a parade of people dressed as "Moryons" can be seen on the main road connecting the towns of the island. Boac and Sta. Cruz, the biggest town in the province, shows a reenactment in the evening of the actual event when Longinus, a blind soldier, punctures Jesus with his spear and blood droplets from the wound restores Longinus' sight.</p>
+
+   </contents>
+	</navbar>
+	</webpage>
+
+<webpage id="book">
+	   <navbar link="index.php">Home</navbar>
+	   <navbar link="gallery.php">Photos</navbar>
+	   <navbar link="info.php">Info</navbar>
+	   <navbar link="history.php">History</navbar>
+	   <navbar link="reservation.php">Book</navbar>
+	   <navbar pagename="Book"> 
+	    <contents>
+	   <h1> Reservation Form </h1>
+		<h2 name="name">Name</h2>
+		<h2 name="name">Email</h2>
+		<h2 name="name">Spot</h2>
+     <h2 name="name">Check-in Date</h2>
+     <h2 name="name">Time Check</h2>
+     <h2 name="name">No. of People</h2>
+
+
+	</contents>
+	</navbar>
+	</webpage>
+
+</MarinduqueTouristSpot>
